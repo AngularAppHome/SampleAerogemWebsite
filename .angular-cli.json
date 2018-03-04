@@ -19,9 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "assets/layout/styles/fontawesome-4.6.3.min.css",
+        "assets/layout/styles/framework.css",
+        "assets/layout/styles/layout.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/layout/scripts/jquery.min.js",
+        "assets/layout/scripts/jquery.backtotop.js",
+        "assets/layout/scripts/jquery.mobilemenu.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
